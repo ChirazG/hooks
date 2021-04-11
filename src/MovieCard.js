@@ -1,6 +1,8 @@
 import './App.css';
 import React, { useState } from 'react';
 import StarRatingComponent from 'react-star-rating-component';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 
 const MovieCard = ({ mv }) => {
@@ -20,7 +22,8 @@ const MovieCard = ({ mv }) => {
         value={mv.rate}
         onStarClick={onStarClick}
       />
-      <p className="poster__text">{mv.description}</p>
+      <Link to={`/description/${mv.id}`}><div className="col2"><div className="watch-btn"><button type="button" class="btn btn-outline-success">WATCH TRAILER</button></div>
+            </div></Link>
 
 
     </div>

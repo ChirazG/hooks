@@ -28,6 +28,18 @@
   margin-bottom: 40px;
   border-radius: 3%;  
 }
+.mv2{
+  margin-top: 0.5%;
+  padding-top: 3%;
+  text-align: center;
+}
+.mv2:hover{     
+  width: 96%; 
+  background-color: rgb(102, 101, 101);
+  box-shadow: 0 4px 8px 0 rgba(119, 119, 119, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*caracteristics of the shadow*/
+  margin-bottom: 40px;
+  border-radius: 3%;  
+}
 
 img{
   margin-top: 5%;
@@ -65,5 +77,28 @@ p{
     margin-right: 7%;
     margin-left: 10%;
   }
+  .poster__text2 {
+    font-size: 2em;
+    color: black;
+    font-weight:400;
+    border: yellow 1px none;
+    margin-right: 7%;
+    margin-left: 10%;
+  }
+
+  .cole2 {margin:0% 0.5% 0.5% 0.5%;
+  padding:1%;
+  float: left;
+  display: block;
+  width: 47%;
+}
+.watch-btn {
+      font-size:14px;
+      margin-right:2px;
+      position: relative;
+      float: left;
+      line-height: 1;
+    }
+
 
 
